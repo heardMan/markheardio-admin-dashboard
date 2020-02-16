@@ -24,7 +24,7 @@ const NavBar = () => {
     if (isAuthenticated) {
       return <a hreh='#' className='menu-link' onClick={() => logout()}>Log out</a>;
     } else if (isAuthenticated === false) {
-      return <a href='#' className='menu-link' onClick={() => loginWithRedirect({})}>Log in</a>;
+      return <a href='#' className='menu-link' onClick={() => loginWithRedirect({'https://heardman.github.io/markheardio-admin-dashboard/'})}>Log in</a>;
     }
   }
 
