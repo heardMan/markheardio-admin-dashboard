@@ -1,0 +1,10 @@
+.list {
+    list-style: none;
+    padding: 0px;
+}
+
+.list > li {
+    width:90%;
+    margin-right: auto;
+    margin-left: auto;
+}

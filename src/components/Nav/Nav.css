@@ -1,0 +1,82 @@
+/* classes for the floating action button */
+.fab {
+    position: fixed;
+    bottom:15px;
+    right:15px;
+    height:50px;
+    width:50px;
+    border-width:0px;
+    border-radius:100%;
+    margin: 0.5rem;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    z-index: 500;
+}
+
+.fab:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+  
+.fab:active {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* classes for the slide out menu */
+.menu {
+    text-align: center;
+    position:fixed;
+    top: 0px;
+    right: -310px;
+    width:290px;
+    height:100%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    z-index: 450;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.open {
+    right: 0px;
+}
+
+.menu-title {
+    margin-top: 1rem;
+    font-size: 2.25rem;
+}
+
+.menu-title a {
+    text-decoration: none;
+    color: black;
+}
+  
+.menu-links{
+    border-top: solid black 1px;
+}
+  
+.menu-links div {    
+    border-bottom: solid black 1px;
+    padding: 1rem 0rem 1rem 0rem;
+}
+  
+.menu-links div a{
+    text-decoration: none;
+    color: black;
+}
+  
+.menu-link {
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+@media (min-width: 760px) {
+    .fab{
+        top:5px !important;
+    }
+    .menu-title{
+        position:absolute;
+        top:0.25rem;
+        left:2rem;
+    }
+    .menu-links{
+        margin-top: 85px!important;
+        border-top: solid black 1px;
+    }
+  }
