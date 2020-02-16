@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/markheardio-admin-dashboard/static/css/main.b582cef1.chunk.css",
+    "main.js": "/markheardio-admin-dashboard/static/js/main.9674ed36.chunk.js",
+    "main.js.map": "/markheardio-admin-dashboard/static/js/main.9674ed36.chunk.js.map",
+    "runtime-main.js": "/markheardio-admin-dashboard/static/js/runtime-main.f0679de9.js",
+    "runtime-main.js.map": "/markheardio-admin-dashboard/static/js/runtime-main.f0679de9.js.map",
+    "static/js/2.f73e7c90.chunk.js": "/markheardio-admin-dashboard/static/js/2.f73e7c90.chunk.js",
+    "static/js/2.f73e7c90.chunk.js.map": "/markheardio-admin-dashboard/static/js/2.f73e7c90.chunk.js.map",
+    "index.html": "/markheardio-admin-dashboard/index.html",
+    "precache-manifest.818d7558ff686f3c73ef5c9b08e828d3.js": "/markheardio-admin-dashboard/precache-manifest.818d7558ff686f3c73ef5c9b08e828d3.js",
+    "service-worker.js": "/markheardio-admin-dashboard/service-worker.js",
+    "static/css/main.b582cef1.chunk.css.map": "/markheardio-admin-dashboard/static/css/main.b582cef1.chunk.css.map",
+    "static/js/2.f73e7c90.chunk.js.LICENSE.txt": "/markheardio-admin-dashboard/static/js/2.f73e7c90.chunk.js.LICENSE.txt",
+    "static/media/close-dark.svg": "/markheardio-admin-dashboard/static/media/close-dark.777b93c6.svg",
+    "static/media/menu-dark.svg": "/markheardio-admin-dashboard/static/media/menu-dark.c275e518.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f0679de9.js",
+    "static/js/2.f73e7c90.chunk.js",
+    "static/css/main.b582cef1.chunk.css",
+    "static/js/main.9674ed36.chunk.js"
+  ]
+}
