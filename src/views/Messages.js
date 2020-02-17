@@ -10,7 +10,7 @@ const Messages = () => {
     const getAllMessages = async () => {
         try {
             const token = await getTokenSilently();
-            const url = "http://localhost:5000/"
+            const url = "https://markheardio-dashboard.herokuapp.com/"
 
             const response = await fetch(url, {
                 headers: {
