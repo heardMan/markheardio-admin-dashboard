@@ -28,7 +28,7 @@ const NavBar = () => {
         responseType: 'token',
         redirectUrl: 'https://heardman.github.io/markheardio-admin-dashboard/'
       }}
-      return <a href='#' className='menu-link' onClick={() => loginWithRedirect(options)}>Log in</a>;
+      return <a href='#' className='menu-link' onClick={() => loginWithRedirect()}>Log in</a>;
     }
   }
 
