@@ -26,7 +26,7 @@ const NavBar = () => {
     } else if (isAuthenticated === false) {
       const options = {auth: {
         responseType: 'token',
-        redirectUrl: 'https://heardman.github.io/markheardio-admin-dashboard/'
+        redirectUrl: 'https://markheardio-admin-dashboard.herokuapp.com/'
       }}
       return <a href='#' className='menu-link' onClick={() => loginWithRedirect()}>Log in</a>;
     }
